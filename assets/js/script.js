@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         
         // Enviar a FormSubmit usando AJAX
-        const response = await fetch("https://script.google.com/macros/s/AKfycbzXdlhJCgkx4GhIp8CFt2XkoaozwwkF6GrYMMAlsY1GXRFYa4HwVBs46EfDmWJJgajbWg/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbwSue2PXfXFd5FC6t6XOrmWeqxj78zRONzWLXYXg56WfApegsGwiQJzvq_hrGhCGcAodw/exec", {
           method: "POST",
           headers: {
             'Content-Type': 'application/json',
@@ -125,4 +125,5 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+
 });
